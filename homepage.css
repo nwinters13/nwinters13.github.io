@@ -1,9 +1,8 @@
 body 
 {
-	background-image: url('background.jpg')
-	background-repeat: no-repeat;
+	background-image: url('background.jpg');
 	width: 1000px;
-	margin-left: auto;
+    margin-left: auto;
 	margin-right: auto;
 }
 
@@ -15,7 +14,6 @@ div
 	padding: 15px;
 	margin: 15px;
 	font-family: "Courier New";	
-	font-color: white;
 }
 
 h1
@@ -29,3 +27,13 @@ p
 	color: white;
 }
 
+/*
+      <div>
+        <h1><p>Nathan S. Winters</p></h1>
+      </div>
+
+    <div>
+      <h1><p>Welcome!</p></h1>
+    </div> 
+
+*/
