@@ -10,12 +10,12 @@ body
 
 div
 {
-	background-image: url('textback.png');
+	background-image: url('textback.png'); 
 	position: :relative;
 	padding: 15px;
 	margin: 15px;
 	font-family: "Courier New";	
-	color: white;
+	font-color: white;
 }
 
 h1
@@ -23,3 +23,9 @@ h1
 	font-variant: small-caps;
 	text-align: center;
 }
+
+p
+{
+	color: white;
+}
+
