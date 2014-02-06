@@ -1,8 +1,21 @@
-body {
+body 
+{
 	background-image: url('background.jpg')
+	width: 80%;
+}
 
 
+div
+{
+	background-image: url('textback.jpg');
+	position: :relative;
+	padding: 15px;
+	margin: 15px;
+	font-family: "Courier New";	
+}
 
-
-
+h1
+{
+	font-variant: small-caps;
+	text-align: center;
 }
