@@ -2,13 +2,15 @@ body
 {
 	background-image: url('background.jpg')
 	background-repeat: no-repeat;
-	width: 80%;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
 div
 {
-	background-image: url('textback.jpg');
+	background-image: url('textback.png');
 	position: :relative;
 	padding: 15px;
 	margin: 15px;
