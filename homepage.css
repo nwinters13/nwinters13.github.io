@@ -11,8 +11,7 @@ div
 {
 	background-image: url('textback.png'); 
 	position: :relative;
-	padding: 15px;
-	margin: 10px;
+	padding: 0px;
 	font-family: "Courier New";
 }
 
@@ -33,7 +32,6 @@ h2
 h3
 {
 	font-variant: small-caps;
-	margin: 0px;
 	text-align: left;
 	font-weight: bold;
 	font-size: 20px;
@@ -43,12 +41,15 @@ h3
 h4
 {
 	font-variant: small-caps;
-	margin: 0px;
 	text-align: left;
 	text-indent: 10px;
 	font-size: 16px;
 }
 
+.indent
+{
+	text-indent: 40px;
+}
 
 ul 
 {
