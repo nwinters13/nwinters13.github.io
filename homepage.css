@@ -13,7 +13,7 @@ div
 	position: :relative;
 	padding: 15px;
 	margin: 15px;
-	font-family: "Courier New";	
+	font-family: "Courier New";
 }
 
 h1
@@ -38,7 +38,7 @@ p
 .leftsquare
 {
 	background-image: url('square.png');
-    width: 200px;
+    width: 237px;
     height: 100px;
     float: left;
 
@@ -47,7 +47,7 @@ p
 .rightsquare
 {
 	background-image: url('square.png');
-	width: 200px;
+	width: 237px;
 	height: 100px;
 	float: right;
 }
@@ -64,6 +64,8 @@ a
 img
 {
 	background-image: url('grayback.png');
-	border-radius: 300px;
-	float: left;
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
