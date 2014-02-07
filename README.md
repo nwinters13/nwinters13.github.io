@@ -17,6 +17,14 @@ centered.
 
 Margins turned out to be my enemy at points as well.
 
+Everything has been correctly implemented from what I can tell.
+
+I discussed this project moderately with Emma P, Kevin, and my
+friend Matt who helped me understand that I should call it img
+not picture...
+
+I spent about 4-5 hours on this
+
 Overall it was a pretty fun time and I definitely need to 
 work on my MENTAl styling because it's really not that pretty
 and I can make it look much nicer. Definitely something I will
