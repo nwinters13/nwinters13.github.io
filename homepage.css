@@ -72,16 +72,6 @@ ul
 .makereadable-image
 {
 	background-image: url('pleasantimage.png');
-}
-
-p
-{
-	color: Bisque;
-	margin: 0px;
-}
-
-.makereadable-text
-{
 	color: black;
 	margin: 5px;
 }
