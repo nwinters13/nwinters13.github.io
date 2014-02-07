@@ -13,7 +13,7 @@ div
 
 	padding: 10px;
 	margin: 10px;
-	font-family: "Courier New";
+	font-family: "Georgia";
 }
 
 h1
@@ -65,11 +65,21 @@ ul
 	float: right;
 }
 
+.makereadable-image
+{
+	background-image: url('pleasantimage.png');
+}
 
 p
 {
 	color: Bisque;
 	margin: 0px;
+}
+
+.makereadable-text
+{
+	color: black;
+	margin: 5px;
 }
 
 .leftsquare
