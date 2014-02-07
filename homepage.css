@@ -61,9 +61,9 @@ a
 	height: 100px;
 }
 
-picture
+img
 {
 	background-image: url('grayback.png');
 	border-radius: 300px;
-	float:right;
+	float: left;
 }
