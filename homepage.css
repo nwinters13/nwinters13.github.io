@@ -85,7 +85,7 @@ p
 .leftsquare
 {
 	background-image: url('square.png');
-    width: 237px;
+    width: 258px;
     height: 100px;
     float: left;
 
@@ -94,7 +94,7 @@ p
 .rightsquare
 {
 	background-image: url('square.png');
-	width: 237px;
+	width: 258px;
 	height: 100px;
 	float: right;
 }
