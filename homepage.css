@@ -1,112 +1,43 @@
 body 
 {
-	background-image: url('mountains.png');
-	width: 1200px;
+	background: #4D505B;
     margin-left: auto;
 	margin-right: auto;
 }
 
+.nav-container{background: #F4AC42 repeat-x 0 0; width: 100%; font-size: 18px;
+               vertical-align: text-top;}
+	.f-nav{background: #F4AC42 repeat-x 0 0; display: inline-block;   z-index: 9999;
+	       position: fixed; left: 0; top: 0;} /* this make our menu fixed top */
+	
+.nav { height: 32px;}
+	.nav ul { list-style: none; text-align: center;}
+	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #16A79D; 
+			   display: inline; width: 15%; font-family: 'Abel'; font-size: 2vw;}
+	.nav ul li:first-child{}
+	.nav ul li:last-child{border-right: 3px solid #16A79D;}
+	.nav ul li a {color: inherit; text-decoration: none;}
+	.nav ul li a:hover{font-weight: bold;}
 
 div
 {
-	background-image: url('textback.png'); 
-
-	padding: 10px;
-	margin: 10px;
-	font-family: "Georgia";
+	padding-top: .05%;
+	padding-bottom: 1.2%;
 }
 
-h1
-{
-	font-variant: small-caps;
-	text-align: center;
-	font-size: 40px;
-	color: Bisque;
-}
+.circular {
+	width: 300px;
+	height: 300px;
+	margin: 2% auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(professionalpic.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
 
-h2
-{
-	font-variant: small-caps;
-	text-align: center;
-	font-size: 32px;
-	color: Bisque;
-}
-
-h3
-{
-	font-variant: small-caps;
-	text-align: left;
-	font-weight: bold;
-	font-size: 20px;
-	color: Bisque;
-}
-
-h4
-{
-	font-variant: small-caps;
-	text-align: left;
-	text-indent: 10px;
-	font-size: 16px;
-	margin: 0px;
-	color: Bisque;
-}
-
-.indent
-{
-	text-indent: 40px;
-}
-
-ul 
-{
-	list-style-position: inside;
-	text-indent: 50px;
-	font-size: 12px;
-	color:Bisque;
-}
-
-.floatright
-{
-	float: right;
-}
-
-.makereadable-image
-{
-	background-image: url('pleasantimage.png');
-	color: black;
-	margin: 5px;
-}
-
-.leftsquare
-{
-	background-image: url('square.png');
-    width: 258px;
-    height: 100px;
-    float: left;
-
-}
-
-.rightsquare
-{
-	background-image: url('square.png');
-	width: 258px;
-	height: 100px;
-	float: right;
-}
-
-a 
-{
-	color: inherit;
-	text-decoration: none;
-	font-weight: bold;
-	width: 200px;
-	height: 100px;
-}
-
-img
-{
-	background-image: url('grayback.png');
-	width: 600px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
+.circular:hover {
+	background: url(profilepic.jpg) no-repeat;
+};
