@@ -1,23 +1,23 @@
 body 
 {
-	background: #FCEBB6;
+	background: #515151;
     margin-left: auto;
 	margin-right: auto;
 }
 
-.nav-container{background: #F0A830 repeat-x 0 0; width: 100%; font-size: 18px;
+.nav-container{background: #00B4FF repeat-x 0 0; width: 100%; font-size: 18px;
                vertical-align: text-top;}
-	.f-nav{background: #F0A830 repeat-x 0 0; display: inline-block;   z-index: 9999;
+	.f-nav{background: #00B4FF repeat-x 0 0; display: inline-block;   z-index: 9999;
 	       position: fixed; left: 0; top: 0;} /* this make our menu fixed top */
 	
 .nav { height: 32px;}
 	.nav ul { list-style: none; text-align: center;}
-	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #5E412F; 
+	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #EEEEEE; 
 			   display: inline; width: 15%; font-family: 'Abel'; font-size: 2vw;}
 	.nav ul li:first-child{}
-	.nav ul li:last-child{border-right: 3px solid #5E412F;}
-	.nav ul li a {color: inherit; text-decoration: none;}
-	.nav ul li a:hover{font-weight: bold;}
+	.nav ul li:last-child{border-right: 3px solid #EEEEEE;}
+	.nav ul li a {color: #EEEEEE; text-decoration: none;}
+	.nav ul li a:hover{font-weight: bold; text-transform: uppercase; position: inherit;}
 
 div
 {
@@ -53,7 +53,7 @@ div
 .title {
 	font-weight: 400;
 	font-family: 'Lato';
-	color: #5E412F;
+	color: #FFFFFF;
 	font-size: 10vw;
 	text-align: center;
 	padding: 3%;
@@ -62,4 +62,20 @@ div
 
 #thin {
 	font-weight: 100;
+	color: #FFFFFF;
+}
+
+
+.small-title {
+	font-weight: 400;
+	font-family: 'Lato';
+	color: #FFFFFF;
+	font-size: 5vw;
+	text-align: center;
+	padding: 3%;
+}
+
+#spacer {
+	height: 25%;
+	width: 100%;
 }
