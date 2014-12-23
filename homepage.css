@@ -25,10 +25,14 @@ div
 	padding-bottom: 1.2%;
 }
 
+.empty {
+	padding: 0%;
+}
+
 .circular {
 	width: 300px;
 	height: 300px;
-	margin: 2% auto;
+	margin: 5% auto;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
@@ -40,4 +44,6 @@ div
 
 .circular:hover {
 	background: url(profilepic.jpg) no-repeat;
+	-webkit-box-shadow: 0 0 32px rgba(206, 72, 88, .95);
+	-moz-box-shadow: 0 0 32px rgba(206, 72, 88, .95);
 };
