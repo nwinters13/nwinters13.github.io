@@ -1,21 +1,21 @@
 body 
 {
-	background: #4D505B;
+	background: #FCEBB6;
     margin-left: auto;
 	margin-right: auto;
 }
 
-.nav-container{background: #F4AC42 repeat-x 0 0; width: 100%; font-size: 18px;
+.nav-container{background: #F0A830 repeat-x 0 0; width: 100%; font-size: 18px;
                vertical-align: text-top;}
-	.f-nav{background: #F4AC42 repeat-x 0 0; display: inline-block;   z-index: 9999;
+	.f-nav{background: #F0A830 repeat-x 0 0; display: inline-block;   z-index: 9999;
 	       position: fixed; left: 0; top: 0;} /* this make our menu fixed top */
 	
 .nav { height: 32px;}
 	.nav ul { list-style: none; text-align: center;}
-	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #16A79D; 
+	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #5E412F; 
 			   display: inline; width: 15%; font-family: 'Abel'; font-size: 2vw;}
 	.nav ul li:first-child{}
-	.nav ul li:last-child{border-right: 3px solid #16A79D;}
+	.nav ul li:last-child{border-right: 3px solid #5E412F;}
 	.nav ul li a {color: inherit; text-decoration: none;}
 	.nav ul li a:hover{font-weight: bold;}
 
@@ -26,6 +26,7 @@ div
 }
 
 .empty {
+	font-size: 0%;
 	padding: 0%;
 }
 
@@ -44,6 +45,20 @@ div
 
 .circular:hover {
 	background: url(profilepic.jpg) no-repeat;
-	-webkit-box-shadow: 0 0 32px rgba(206, 72, 88, .95);
-	-moz-box-shadow: 0 0 32px rgba(206, 72, 88, .95);
-};
+	-webkit-box-shadow: 0 0 32px rgba(240, 120, 24, .95);
+	-moz-box-shadow: 0 0 32px rgba(240, 120, 24, .95);
+}
+
+
+.title {
+	font-family: 'Lato';
+	color: #5E412F;
+	font-size: 10vw;
+	text-align: center;
+	padding: 3%;
+	/* janky */
+}
+
+#thin {
+	font-weight: 100;
+}
