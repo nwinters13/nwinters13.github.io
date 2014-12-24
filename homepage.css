@@ -37,13 +37,44 @@ div
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(professionalpic.jpg) no-repeat;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	}
 
-.circular:hover {
+.professionalPic {
+	background: url(professionalpic.jpg) no-repeat;
+}
+
+.funPic {
+	width: 33%;
+	border-radius: 16.5%;
+	-webkit-border-radius: 16.5%;
+	-moz-border-radius: 16.5%;
+	display: inline-block;
+	float: left;
+}
+
+.funPicCenter {
+	width: 33%;
+	border-radius: 16.5%;
+	-webkit-border-radius: 16.5%;
+	-moz-border-radius: 16.5%;
+	background: url(nateandsusie.jpg) no-repeat;
+	background-size: cover;
+}
+
+.funPicRight {
+	background: url(littlenate.jpg) no-repeat;
+	background-size: cover;
+}
+.funPicLeft {
+	margin-left: .5%;
+	background: url(nateanddogs.jpg) no-repeat;
+	background-size: cover;
+}
+
+.professionalPic:hover {
 	background: url(profilepic.jpg) no-repeat;
 	-webkit-box-shadow: 0 0 32px rgba(240, 120, 24, .95);
 	-moz-box-shadow: 0 0 32px rgba(240, 120, 24, .95);
@@ -70,12 +101,14 @@ div
 	font-weight: 400;
 	font-family: 'Lato';
 	color: #FFFFFF;
-	font-size: 5vw;
+	font-size: 7vw;
 	text-align: center;
-	padding: 3%;
 }
 
-#spacer {
-	height: 25%;
-	width: 100%;
+.spacer {
+	height: 150px;
+}
+
+.navBarDrop {
+	height: 100px;
 }
