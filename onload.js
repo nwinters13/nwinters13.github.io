@@ -2,7 +2,7 @@ var width = $('.funPic').width();
 $('.funPic').css('height', width);
 var width = $('.funPicCenter').width();
 $('.funPicCenter').css('height', width);
-var navHeight = #('.navContainer').height();
+var navHeight = $('.navContainer').height();
 $('.navBarDrop').css('height', navHeight);
 
 
@@ -11,6 +11,6 @@ $(window).resize(function() {
 	$('.funPic').css('height', width);
 	width = $('.funPicCenter').width();
 	$('.funPicCenter').css('height', width);
-	var navHeight = #('.navContainer').height();
+	var navHeight = $('.navContainer').height();
 	$('.navBarDrop').css('height', navHeight);
 });
