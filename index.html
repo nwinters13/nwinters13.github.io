@@ -13,6 +13,7 @@
       <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
       <script type='text/javascript' src="homepage.js" /></script>
       <script type='text/javascript' src="scrolling.js"></script>
+      <script type='text/javascript' src="panelSnap.js"></script>
 
     </head>
 
@@ -21,33 +22,36 @@
  
 
     <body>
-      <div id="init" class="empty"></div> <!-- to allow smooth scrolling to the top -->
-      <div class="nav-container">
-        <div class="nav">
-          <ul>
-            <li><a href="#init">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a>resume</a></li>
-            <li><a>contact</a></li>
-          </ul>
-      </div>
-    </div>
+      <section id="landing">
+        <div id="init" class="empty"></div> <!-- to allow smooth scrolling to the top -->
+        <div class="nav-container">
+          <div class="nav">
+            <ul>
+              <li><a href="#init">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a>resume</a></li>
+              <li><a>contact</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="title"><span id="thin">Nate</span> Winters</div>
+        <div class="circular professionalPic"></div>
+      </section>
 
-    <div class="title"><span id="thin">Nate</span> Winters</div>
-    <div class="circular professionalPic"></div>
+      <section id="about">
+        <div id="about" class="navBarDrop empty">*</div>
 
-    <div class="spacer empty">*</div>
-    <div id="about" class="navBarDrop empty">*</div>
+        <div class="empty"></div> 
+        <div class="small-title"><span id="thin">Who am</span> I?</div> 
 
-    <div class="empty"></div> 
-    <div class="small-title"><span id="thin">Who am</span> I?</div> 
-
-    <div>
-      <div class="circular funPic funPicLeft"></div>
-      <div class="circular funPic funPicCenter"></div>
-      <div class="circular funPic funPicRight"></div>
-    </div>
+        <div>
+          <div class="circular funPic funPicLeft"></div>
+          <div class="circular funPic funPicCenter"></div>
+          <div class="circular funPic funPicRight"></div>
+        </div>
+      </section>
 
     
 

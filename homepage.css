@@ -19,6 +19,11 @@ body
 	.nav ul li a {color: #EEEEEE; text-decoration: none;}
 	.nav ul li a:hover{font-weight: bold; text-transform: uppercase; position: inherit;}
 
+section {
+	width: 100%;
+	height: 100%;
+}
+
 div
 {
 	padding-top: .05%;
