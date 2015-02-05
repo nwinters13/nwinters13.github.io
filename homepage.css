@@ -10,14 +10,14 @@ body
 	.f-nav{background: #00B4FF repeat-x 0 0; display: inline-block;   z-index: 9999;
 	       position: fixed; left: 0; top: 0;} /* this make our menu fixed top */
 	
-.nav { height: 32px;}
+.nav { width: 100%; height: 32px;}
 	.nav ul { list-style: none; text-align: center;}
 	.nav ul li{padding-left: 5%; padding-right: 5%; border-left: 3px solid #EEEEEE; 
-			   display: inline; width: 15%; font-family: 'Abel'; font-size: 2vw;}
+			   display: inline; font-family: 'Abel'; font-size: 2vw;}
 	.nav ul li:first-child{}
 	.nav ul li:last-child{border-right: 3px solid #EEEEEE;}
 	.nav ul li a {color: #EEEEEE; text-decoration: none;}
-	.nav ul li a:hover{font-weight: bold; text-transform: uppercase; position: inherit;}
+	.nav ul li a:hover{font-size: 2vw; width: inherit; font-weight: bold; text-transform: uppercase; position: inherit;}
 
 section {
 	width: 100%;
@@ -52,19 +52,16 @@ div
 }
 
 .funPic {
-	width: 33%;
-	border-radius: 16.5%;
-	-webkit-border-radius: 16.5%;
-	-moz-border-radius: 16.5%;
+	margin-left: 5%;
+	width: 10%;
+	border-radius: 5%;
+	-webkit-border-radius: 5%;
+	-moz-border-radius: 5%;
 	display: inline-block;
 	float: left;
 }
 
 .funPicCenter {
-	width: 33%;
-	border-radius: 16.5%;
-	-webkit-border-radius: 16.5%;
-	-moz-border-radius: 16.5%;
 	background: url(nateandsusie.jpg) no-repeat;
 	background-size: cover;
 }
@@ -73,8 +70,8 @@ div
 	background: url(littlenate.jpg) no-repeat;
 	background-size: cover;
 }
+
 .funPicLeft {
-	margin-left: .5%;
 	background: url(nateanddogs.jpg) no-repeat;
 	background-size: cover;
 }
@@ -90,9 +87,9 @@ div
 	font-weight: 400;
 	font-family: 'Lato';
 	color: #FFFFFF;
-	font-size: 10vw;
+	font-size: 12vw;
 	text-align: center;
-	padding: 3%;
+	padding-top: 5%;
 	/* janky */
 }
 
