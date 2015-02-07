@@ -26,3 +26,35 @@ jQuery("document").ready(function($){
 //         }
 //     }
 // });
+
+jQuery(document).ready(function($){
+     $("#topLeft").hover(function(){
+         $("#topLeftText").css("visibility", "visible");
+     }, function() {
+     	$('#topLeftText').css("visibility", "hidden");
+     });
+});
+
+jQuery(document).ready(function($){
+     $("#botLeft").hover(function(){
+         $("#botLeftText").css("visibility", "visible");
+     }, function() {
+     	$('#botLeftText').css("visibility", "hidden");
+     });
+});
+
+jQuery(document).ready(function($){
+     $("#topRight").hover(function(){
+         $("#topRightText").css("visibility", "visible");
+     }, function() {
+     	$('#topRightText').css("visibility", "hidden");
+     });
+});
+
+jQuery(document).ready(function($){
+     $("#botRight").hover(function(){
+         $("#botRightText").css("visibility", "visible");
+     }, function() {
+     	$('#botRightText').css("visibility", "hidden");
+     });
+});
